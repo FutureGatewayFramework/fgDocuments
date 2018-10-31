@@ -27,6 +27,9 @@
 
 |Item|Description|
 |---|---|
+|Feature name|User APIs|
+|Impacted areas|fgAPIServer, APISpecs|
+|Branch|user_apis|
 |fgapiserver_user.py|Use Flask Blueprint to separate specific user APIs calls to this file|
 |fgapiserverdb.py|New database queries to handle users, groups and roles|
 |fgapiserver.py|Changes are necessary to handle externalized APIs throug the Blueprint mechanism|
