@@ -22,6 +22,7 @@
 ||GET `/groups/<group_id>/apps` Show applications associated to the given group|
 ||DELETE `/groups/<group_id>/apps` Remove associated applications to the given group|
 ||GET `/roles` To retrieve installed roles|
+||GET/POST `/auth` specifying param `user`, to generate a session token on behalf of given user. Grant user_behalf must be present. Available only with baseline token handling|
 
 ## Implementation
 
